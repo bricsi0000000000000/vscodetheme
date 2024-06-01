@@ -245,7 +245,7 @@
 		"widget.shadow": "#00000030",
 
 		"minimap.errorHighlight": "#ff1212b3",
-		"minimap.findMatchHighlight": "#ffffff",
+		"minimap.findMatchHighlight": "#7937ff",
 		"minimap.foregroundOpacity": "#000000",
 		"minimap.infoHighlight": "#82aaff70",
 		"minimap.selectionHighlight": "#264f78",
