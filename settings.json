@@ -61,19 +61,19 @@
 
 		"editor.background": "#222222",
 		"editor.foreground": "#ffffff",
-		"editor.findMatchBackground": "#ffc663",
-		"editor.findMatchBorder": null,
-		"editor.findMatchHighlightBackground": "#ffc663",
-		"editor.findMatchHighlightBorder": null,
 
-		"editor.findRangeHighlightBackground": "#ffc663",
+		"editor.findMatchBackground": "#5500ff",
+		"editor.findMatchBorder": null,
+		"editor.findMatchHighlightBackground": "#5500ff",
+		"editor.findMatchHighlightBorder": null,
+		"editor.findRangeHighlightBackground": "#5500ff",
 		"editor.lineHighlightBackground": null,
 		"editor.lineHighlightBorder": null,
-		"editor.rangeHighlightBackground": "#ffc6637d",
-		"editor.selectionBackground": "#ffc663b6",
-		"editor.selectionHighlightBackground": "#ffc6637d",
-		"editor.wordHighlightBackground": "#ffc663",
-		"editor.wordHighlightStrongBackground": "#ffc663",
+		"editor.rangeHighlightBackground": "#5500ff7d",
+		"editor.selectionBackground": "#5500ffb6",
+		"editor.selectionHighlightBackground": "#5500ff7d",
+		"editor.wordHighlightBackground": "#5500ff",
+		"editor.wordHighlightStrongBackground": "#5500ff",
 
 		"editorBracketMatch.background": "#212121",
 		"editorBracketMatch.border": "#ffcc0050",
@@ -245,7 +245,7 @@
 		"widget.shadow": "#00000030",
 
 		"minimap.errorHighlight": "#ff1212b3",
-		"minimap.findMatchHighlight": "#ffc663",
+		"minimap.findMatchHighlight": "#ffffff",
 		"minimap.foregroundOpacity": "#000000",
 		"minimap.infoHighlight": "#82aaff70",
 		"minimap.selectionHighlight": "#264f78",
@@ -831,6 +831,7 @@
 					"storage.type",
 					"keyword.control.export.ts",
 					"keyword.control.conditional.ts",
+					"keyword.control.loop.ts",
 					"keyword.control.else.ts",
 					"keyword.operator.new.ts"
 				],
@@ -846,7 +847,7 @@
 					"keyword.control.as.ts",
 				],
         "settings": {
-          "foreground": "#ff40e2",
+          "foreground": "#40a6ff",
         }
       },
 			{
@@ -933,7 +934,9 @@
         }
       },
 			{
-        "scope": "constant.language.null.ts",
+        "scope": [
+					"constant.language.null.ts",
+				],
         "settings": {
           "foreground": "#747474",
 					"fontStyle": "underline"
@@ -961,7 +964,7 @@
 			{
         "scope": "constant.numeric",
         "settings": {
-          "foreground": "#bd5bff",
+          "foreground": "#ff40e2",
         }
       },
 			{
@@ -989,10 +992,12 @@
 			{
         "scope": [
 					"keyword.operator.optional.ts",
-					"keyword.operator.relational.ts"
+					"keyword.operator.relational.ts",
+					"keyword.operator.comparison.ts",
+					"keyword.operator.logical.ts"
 				],
         "settings": {
-          "foreground": "#eeff00",
+          "foreground": "#b7ff00",
         }
       },
 			{
@@ -1013,14 +1018,6 @@
 				],
         "settings": {
           "foreground": "#ffde4a",
-        }
-      },
-			{
-        "scope": [
-					"keyword.operator.logical.ts"
-				],
-        "settings": {
-          "foreground": "#fff200",
         }
       },
 			{
